@@ -1,0 +1,47 @@
+@import "fonts";
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container-NeoChef{
+  width: 100%;
+  height: auto;
+  .header-NeoChef{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    padding-left: 120px;
+    padding-right: 120px;
+    .header-title-NeoChef{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-top: 74px;
+      padding-bottom: 100px;
+      h1{
+          font-size: 60px;
+          font-family: "LGSmart",sans-serif;
+          color: rgb(255, 255, 255);
+          line-height: 0.625;
+          text-align: center;
+          padding-bottom: 65px;
+      }
+      p{
+          font-size: 30px;
+          font-family: 'LG Smart Light',sans-serif;
+          color: rgba(255, 255, 255, 0.8);
+          line-height: 1.2;
+          text-align: center;
+      }
+    }
+    .header-microwave-NeoChef{
+      margin-bottom: -10%;
+    }
+  }
+
+}

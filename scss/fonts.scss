@@ -1,0 +1,14 @@
+$fonts:
+        'LG Smart' '../fonts/LGSmartRegular' 'LG Smart',
+        'LG Smart' '../fonts/LG Smart Light' 'LG Smart Light',
+        'LG Smart' '../fonts/LG Smart SemiBold' 'LG Smart SemiBold';
+@each $font in $fonts {
+  @font-face {
+    font-family: nth($font, 1);
+    src: url(nth($font, 2) + '.eot');
+    src: url(nth($font, 2) + '.eot?#iefix') format('embedded-opentype'),
+    url(nth($font, 2) + '.woff2') format('woff2'),
+    url(nth($font, 2) + '.woff') format('woff'),
+    url(nth($font, 2) + '.ttf') format('truetype');
+  }
+}
