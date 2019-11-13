@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33b2f90a-597a-446d-a971-2b9a1ee92e1f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/modules/chef-neochef.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/header-NeoChef.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/chef-neochef.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/header-NeoChef.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/chicken-neochef.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/meat-neochef.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/chicken-neochef.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/meat-neochef.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/App/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/App/index.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/chef-neochef.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/chef-neochef.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,6 +46,7 @@
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -65,6 +71,7 @@
       <option name="presentableId" value="Default" />
       <updated>1573598597757</updated>
       <workItem from="1573598601221" duration="9563000" />
+      <workItem from="1573650680822" duration="18551000" />
     </task>
     <servers />
   </component>
@@ -76,7 +83,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
