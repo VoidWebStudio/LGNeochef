@@ -4,12 +4,13 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  width: 100%;
   height: auto;
-  padding: 80px 120px 10px 120px;
+  padding: 80px 0 10px 0;
+  width: 100%;
 
   .main-footere-NeoChef{
-    width: 100%;
+    max-width: 1485px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-around;
   }
@@ -56,7 +57,7 @@
     }
     .footer-img{
       img{
-        width: 357px;
+        max-width: 357px;
         height: 220px;
       }
     }
@@ -108,7 +109,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      padding-top: 125px;
+      padding-top:35%;
       padding-bottom: 20px;
     }
     .footer-logo2 img{
@@ -149,11 +150,11 @@
     }
     .footer-logo{
       padding-bottom: 20px;
-      padding-top: 80px;
+      padding-top: 20%;
     }
     .footer-img{
       img{
-        width: 357px;
+        max-width: 357px;
         height: 220px;
       }
     }

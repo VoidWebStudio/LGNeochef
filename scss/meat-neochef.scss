@@ -1,11 +1,13 @@
 .container-meat-NeoChef{
   background-image: url("../img/bg-meat.png");
   background-size: cover;
-  padding: 80px 120px;
+  padding: 80px 0;
+  width: 100%;
   .main-meat-NeoChef{
     display: flex;
     flex-direction: column;
-    width: 100%;
+    max-width: 1485px;
+    margin: 0 auto;
   }
   .title-meat-NeoChef{
     display: flex;

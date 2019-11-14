@@ -1,15 +1,16 @@
 .contained-chef-NeoChef{
   display: flex;
-  width: 100%;
   height: auto;
-  padding: 176px 120px 80px;
+  padding: 176px 0 80px 0;
+  width: 100%;
 
   .main-chef-NeoChef{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    max-width: 1485px;
+    margin: 0 auto;
     height: auto;
     .title-chef-NeoChef{
       display: flex;
@@ -52,12 +53,12 @@
               text-align: left;
             }
             p{
-              font-size: 24px;
               font-family: 'LG Smart Light',sans-serif;
               color: rgb(0, 0, 0);
-              line-height: 1.25;
-              text-align: left;
+              font-size: 18px;
               font-weight: 300;
+              line-height: 25px;
+              text-align: left;
               padding-top: 16px;
             }
           }
