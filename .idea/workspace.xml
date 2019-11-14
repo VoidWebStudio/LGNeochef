@@ -4,10 +4,9 @@
     <list default="true" id="80e9bcc2-7402-418b-b4be-b4ad3b415359" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/App/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/chicken-neochef.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/chicken-neochef.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/App/index.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/chef-neochef.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/chef-neochef.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/header-NeoChef.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/header-NeoChef.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/meat-neochef.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/meat-neochef.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/microwave-NeoChef.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/microwave-NeoChef.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
