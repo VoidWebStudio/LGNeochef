@@ -96,11 +96,51 @@
             padding-bottom: 15px;
         }
         p{
-          font-size: 24px;
+          font-size: 18px;
           font-family: 'LG Smart Light',sans-serif;
           color: rgb(1, 0, 0);
           line-height: 1.25;
           text-align: left;
+        }
+      }
+    }
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .contained-chef-NeoChef{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 140px;
+    .main-chef-NeoChef{
+
+      .title-chef-NeoChef{
+
+        p{
+
+        }
+      }
+      .bio-chef-NeoChef{
+        padding-top: 35px;
+        flex-direction: column;
+        display: flex;
+        .video-chef-NeoChef{
+          display: flex;
+          flex-basis: 100% ;
+          justify-content: flex-end;
+          align-items: flex-end;
+          padding-top: 50px;
+          img{
+            min-width: 449px;
+            min-height: 225px;
+          }
+          h1{
+            padding-right: 364px;
+            text-align: right;
+          }
+          p{
+            padding-right: 304px;
+            text-align: right;
+          }
         }
       }
     }

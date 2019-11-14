@@ -51,5 +51,19 @@
       }
     }
   }
+}
+@media (min-width: 768px) and (max-width: 1024px){
+  .container-microwave-NeoChef{
+    background-image: url("../img/bg-micro-pad.png");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    .main-microwave-NeoChef{
+      padding-top: 0;
+      .bottom-microwave-NeoChef{
+        padding-top: 322px;
+      }
+    }
 
+  }
 }

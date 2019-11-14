@@ -142,3 +142,92 @@
     }
   }
 }
+@media (min-width: 768px) and (max-width: 1024px) {
+  .container-chicken-NeoChef{
+    background-image: url("../img/chicken-pad.png");
+    background-size: inherit;
+    padding: 60px 50px;
+
+    .main-chicken-NeoChef{
+
+      .calc-chicken-NeoChef{
+        padding-top: 57px;
+        padding-left: 0;
+          img{
+            width: 60px;
+            height: 50px;
+          }
+          p{
+            font-size: 14px;
+          }
+        .pan-microwave-NeoChef{
+          padding: 0;
+          .pan-NeoChef{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 30%;
+          }
+          .microwave-NeoChef{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 30%;
+          }
+        }
+        .summ-NeoChef{
+          padding: 0;
+          .plus-NeoChef{
+            width:40%;
+            padding-left: 50px;
+            img{
+              width: 35px;
+              height: 40px;
+            }
+          }
+          .eq-NeoChef{
+            width:10%;
+            img{
+              width: 35px;
+              height: 26px;
+            }
+          }
+          h1{
+            font-size:58px;
+            span{
+              font-size:40px;
+            }
+          }
+        }
+        .grill-NeoChef{
+          padding-left: 3%;
+          p{
+          }
+          .yogurt-NeoChef{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 18%;
+          }
+          .fried-NeoChef{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 22%;
+
+          }
+          .grilled-NeoChef{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 18%;
+          }
+        }
+      }
+      .bottom-text-NeoChef{
+        padding-top: 120px;
+
+      }
+    }
+  }
+}
