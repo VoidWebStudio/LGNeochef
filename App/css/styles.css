@@ -177,7 +177,7 @@
   height: auto;
   background-image: url("../img/chicken.png");
   background-size: cover;
-  padding: 80px 0;
+  padding: 80px 120px;
   width: 100%; }
   .container-chicken-NeoChef .main-chicken-NeoChef {
     max-width: 1485px;
@@ -751,7 +751,9 @@
   height: auto; }
   .container-NeoChef .contained-header-NeoChef {
     width: 100%;
-    background-color: black; }
+    background-color: black;
+    padding-left: 120px;
+    padding-right: 120px; }
   .container-NeoChef .header-NeoChef {
     max-width: 1485px;
     margin: 0 auto;
@@ -825,7 +827,7 @@
 .container-meat-NeoChef {
   background-image: url("../img/bg-meat.png");
   background-size: cover;
-  padding: 80px 0;
+  padding: 80px 120px;
   width: 100%; }
   .container-meat-NeoChef .main-meat-NeoChef {
     display: -webkit-box;
@@ -1241,7 +1243,8 @@
   background-position: center;
   background-repeat: no-repeat;
   width: 100%;
-  height: auto; }
+  height: auto;
+  padding: 50px 120px; }
   .container-microwave-NeoChef .main-microwave-NeoChef {
     max-width: 1485px;
     margin: 0 auto;
