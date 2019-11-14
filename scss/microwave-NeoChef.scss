@@ -28,27 +28,29 @@
         color: #c9c9c9;
         font-size: 40px;
         font-weight: 400;
+        line-height: 40px;
+        padding-bottom: 25px;
       }
       p{
         display: flex;
         justify-content: center;
         text-align: center;
-        line-height: 1;
         font-family: "LG Smart",sans-serif;
         color: #c9c9c9;
         font-size: 24px;
         font-weight: 300;
+        line-height: 30px;
+        opacity: 0.8;
       }
     }
     .bottom-microwave-NeoChef{
       padding-top: 50%;
       p{
-
-        font-size: 14px;
-        line-height: 16px;
         color: #6b6b6b;
         font-family: "LG Smart Light",sans-serif;
+        font-size: 14px;
         font-weight: 300;
+        line-height: 16px;
         text-align: center;
       }
     }
