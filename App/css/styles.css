@@ -37,7 +37,7 @@
       -webkit-align-items: center;
       align-items: center; }
       .contained-chef-NeoChef .main-chef-NeoChef .title-chef-NeoChef p {
-        font-size: 8.75px;
+        font-size: 16px;
         font-family: "LG Smart", sans-serif !important;
         color: #6b6b6b;
         line-height: 1.143;
@@ -128,7 +128,7 @@
           line-height: 1.25;
           text-align: left;
           padding-top: 25px;
-          padding-bottom: 15px; }
+          padding-bottom: 5px; }
         .contained-chef-NeoChef .main-chef-NeoChef .bio-chef-NeoChef .video-chef-NeoChef p {
           font-size: 18px;
           font-family: "LG Smart Light", sans-serif !important;
@@ -138,9 +138,7 @@
 
 @media (min-width: 768px) and (max-width: 1024px) {
   .contained-chef-NeoChef {
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 140px; }
+    padding: 140px 50px 50px; }
     .contained-chef-NeoChef .main-chef-NeoChef .bio-chef-NeoChef {
       padding-top: 35px;
       -webkit-box-orient: vertical;
@@ -209,9 +207,9 @@
         font-size: 40px;
         line-height: 40px;
         color: #c9c9c9;
-        font-family: "LG Smart", sans-serif !important;
+        font-family: "LG Smart Light", sans-serif !important;
         text-align: center;
-        padding-bottom: 26px;
+        padding-bottom: 17px;
         font-weight: 400; }
       .container-chicken-NeoChef .main-chicken-NeoChef .title-chicken-NeoChef p {
         font-size: 24px;
@@ -234,7 +232,7 @@
       margin: 0 auto; }
       .container-chicken-NeoChef .main-chicken-NeoChef .calc-chicken-NeoChef p {
         color: #cccccc;
-        font-family: "LG Smart", sans-serif !important;
+        font-family: "LG Smart Light", sans-serif !important;
         font-size: 20px;
         font-weight: 400;
         text-align: center;
@@ -319,7 +317,7 @@
           .container-chicken-NeoChef .main-chicken-NeoChef .calc-chicken-NeoChef .summ-NeoChef h1 span {
             font-size: 56px; }
         .container-chicken-NeoChef .main-chicken-NeoChef .calc-chicken-NeoChef .summ-NeoChef p {
-          font-size: 10px;
+          font-size: 16px;
           font-family: "LG Smart", sans-serif !important;
           color: #cccccc;
           line-height: .7;
@@ -379,6 +377,9 @@
     background-image: url("../img/chicken-pad.png");
     background-size: inherit;
     padding: 60px 50px; }
+    .container-chicken-NeoChef .main-chicken-NeoChef .title-chicken-NeoChef {
+      width: 85%;
+      margin: 0 auto; }
     .container-chicken-NeoChef .main-chicken-NeoChef .calc-chicken-NeoChef {
       padding-top: 57px;
       padding-left: 0; }
@@ -440,7 +441,7 @@
           -webkit-box-align: center;
           -webkit-align-items: center;
           align-items: center;
-          width: 18%; }
+          width: 24%; }
         .container-chicken-NeoChef .main-chicken-NeoChef .calc-chicken-NeoChef .grill-NeoChef .fried-NeoChef {
           display: -webkit-box;
           display: -webkit-flex;
@@ -451,7 +452,7 @@
           -webkit-box-align: center;
           -webkit-align-items: center;
           align-items: center;
-          width: 22%; }
+          width: 24%; }
         .container-chicken-NeoChef .main-chicken-NeoChef .calc-chicken-NeoChef .grill-NeoChef .grilled-NeoChef {
           display: -webkit-box;
           display: -webkit-flex;
@@ -462,7 +463,7 @@
           -webkit-box-align: center;
           -webkit-align-items: center;
           align-items: center;
-          width: 18%; }
+          width: 24%; }
     .container-chicken-NeoChef .main-chicken-NeoChef .bottom-text-NeoChef {
       padding-top: 120px; } }
 
@@ -549,7 +550,7 @@
         line-height: 40px;
         font-weight: 400;
         color: #c9c9c9;
-        font-family: "LG Smart", sans-serif !important;
+        font-family: 'LG Smart Light', sans-serif !important;
         padding-bottom: 20px; }
       .container-footer-NeoChef .table-footer-NeoChef .table-footer1-NeoChef p {
         display: -webkit-box;
@@ -789,7 +790,7 @@
       -webkit-align-items: center;
       align-items: center;
       padding-top: 74px;
-      padding-bottom: 100px; }
+      padding-bottom: 70px; }
       .container-NeoChef .header-NeoChef .header-title-NeoChef h1 {
         font-size: 60px;
         font-family: "LG Smart", sans-serif !important;
@@ -816,7 +817,7 @@
     padding-left: 30px;
     padding-right: 30px; }
     .container-NeoChef .header-NeoChef .header-title-NeoChef {
-      padding-top: 130px; }
+      padding-top: 50px; }
       .container-NeoChef .header-NeoChef .header-title-NeoChef h1 {
         line-height: 1.2;
         padding: 0 50px; }
@@ -861,13 +862,13 @@
     -webkit-align-items: center;
     align-items: center; }
     .container-meat-NeoChef .title-meat-NeoChef h1 {
-      font-family: "LG Smart", sans-serif !important;
+      font-family: "LG Smart Light", sans-serif !important;
       color: #c9c9c9;
       font-size: 40px;
       font-weight: 400;
       line-height: 40px;
       text-align: center;
-      padding-bottom: 27px; }
+      padding-bottom: 20px; }
     .container-meat-NeoChef .title-meat-NeoChef p {
       font-size: 24px;
       font-family: "LG Smart Light", sans-serif !important;
@@ -1292,7 +1293,7 @@
         -webkit-justify-content: center;
         justify-content: center;
         text-align: center;
-        font-family: "LG Smart", sans-serif !important;
+        font-family: "LG Smart Light", sans-serif !important;
         color: #c9c9c9;
         font-size: 40px;
         font-weight: 400;
@@ -1305,15 +1306,28 @@
         -webkit-box-pack: center;
         -webkit-justify-content: center;
         justify-content: center;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        align-items: center;
         text-align: center;
-        font-family: "LG Smart", sans-serif !important;
+        font-family: "LG Smart Light", sans-serif !important;
         font-weight: 300;
         line-height: 30px;
         color: #c9c9c9;
         font-size: 24px;
         opacity: 0.8; }
     .container-microwave-NeoChef .main-microwave-NeoChef .bottom-microwave-NeoChef {
-      padding-top: 50%; }
+      padding-top: 50%;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+      padding-bottom: 40px; }
       .container-microwave-NeoChef .main-microwave-NeoChef .bottom-microwave-NeoChef p {
         color: #6b6b6b;
         font-family: "LG Smart", sans-serif !important;

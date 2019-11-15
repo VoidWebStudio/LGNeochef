@@ -18,7 +18,7 @@
       justify-content: center;
       align-items: center;
       p{
-        font-size: 8.75px;
+        font-size:16px;
         font-family: "LG Smart",sans-serif!important;
         color: rgb(107, 107, 107);
         line-height: 1.143;
@@ -95,7 +95,7 @@
             line-height: 1.25;
             text-align: left;
             padding-top: 25px;
-            padding-bottom: 15px;
+            padding-bottom: 5px;
         }
         p{
           font-size: 18px;
@@ -110,9 +110,8 @@
 }
 @media (min-width: 768px) and (max-width: 1024px) {
   .contained-chef-NeoChef{
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 140px;
+    padding: 140px 50px 50px;
+
     .main-chef-NeoChef{
 
       .title-chef-NeoChef{

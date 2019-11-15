@@ -4,29 +4,11 @@
     <list default="true" id="80e9bcc2-7402-418b-b4be-b4ad3b415359" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/App/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/img/cup.svg" beforeDir="false" afterPath="$PROJECT_DIR$/App/img/cup.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/img/deg.svg" beforeDir="false" afterPath="$PROJECT_DIR$/App/img/deg.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/img/eq.svg" beforeDir="false" afterPath="$PROJECT_DIR$/App/img/eq.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/img/footer-img1.png" beforeDir="false" afterPath="$PROJECT_DIR$/App/img/footer-img1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/img/footer-img2.png" beforeDir="false" afterPath="$PROJECT_DIR$/App/img/footer-img2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/img/footer-img3.png" beforeDir="false" afterPath="$PROJECT_DIR$/App/img/footer-img3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/img/fried.svg" beforeDir="false" afterPath="$PROJECT_DIR$/App/img/fried.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/img/grill.svg" beforeDir="false" afterPath="$PROJECT_DIR$/App/img/grill.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/img/meat.svg" beforeDir="false" afterPath="$PROJECT_DIR$/App/img/meat.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/img/microwave.svg" beforeDir="false" afterPath="$PROJECT_DIR$/App/img/microwave.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/img/pan.svg" beforeDir="false" afterPath="$PROJECT_DIR$/App/img/pan.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/img/plus.svg" beforeDir="false" afterPath="$PROJECT_DIR$/App/img/plus.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/img/yogurt.svg" beforeDir="false" afterPath="$PROJECT_DIR$/App/img/yogurt.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/App/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/chef-neochef.pug" beforeDir="false" afterPath="$PROJECT_DIR$/modules/chef-neochef.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/chicken-neochef.pug" beforeDir="false" afterPath="$PROJECT_DIR$/modules/chicken-neochef.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/footer-NeoChef.pug" beforeDir="false" afterPath="$PROJECT_DIR$/modules/footer-NeoChef.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/header-NeoChef.pug" beforeDir="false" afterPath="$PROJECT_DIR$/modules/header-NeoChef.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/meat-neochef.pug" beforeDir="false" afterPath="$PROJECT_DIR$/modules/meat-neochef.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/microwave-NeoChef.pug" beforeDir="false" afterPath="$PROJECT_DIR$/modules/microwave-NeoChef.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/img/bg-micro.png" beforeDir="false" afterPath="$PROJECT_DIR$/App/img/bg-micro.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/img/chicken.png" beforeDir="false" afterPath="$PROJECT_DIR$/App/img/chicken.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/img/video-vlad.png" beforeDir="false" afterPath="$PROJECT_DIR$/App/img/video-vlad.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/chef-neochef.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/chef-neochef.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/chicken-neochef.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/chicken-neochef.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/fonts.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/footer-NeoChef.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/footer-NeoChef.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/header-NeoChef.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/header-NeoChef.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/meat-neochef.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/meat-neochef.scss" afterDir="false" />
@@ -70,6 +52,7 @@
       <option name="presentableId" value="Default" />
       <updated>1573783350826</updated>
       <workItem from="1573783356814" duration="4599000" />
+      <workItem from="1573810958065" duration="2867000" />
     </task>
     <servers />
   </component>
@@ -81,7 +64,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

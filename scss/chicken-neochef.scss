@@ -21,9 +21,9 @@
         font-size: 40px;
         line-height: 40px;
         color: #c9c9c9;
-        font-family: "LG Smart",sans-serif!important;
+        font-family: "LG Smart Light",sans-serif!important;
         text-align: center;
-        padding-bottom: 26px;
+        padding-bottom: 17px;
         font-weight: 400;
       }
       p{
@@ -44,7 +44,7 @@
         margin: 0 auto;
       p{
           color: #cccccc;
-       font-family: "LG Smart",sans-serif!important;
+       font-family: "LG Smart Light",sans-serif!important;
           font-size: 20px;
           font-weight: 400;
           text-align: center;
@@ -107,7 +107,7 @@
             }
         }
         p{
-            font-size: 10px;
+            font-size: 16px;
          font-family: "LG Smart",sans-serif!important;
             color: rgb(204, 204, 204);
             line-height: .7;
@@ -164,7 +164,10 @@
     padding: 60px 50px;
 
     .main-chicken-NeoChef{
-
+      .title-chicken-NeoChef{
+        width: 85%;
+        margin: 0 auto;
+      }
       .calc-chicken-NeoChef{
         padding-top: 57px;
         padding-left: 0;
@@ -222,20 +225,20 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            width: 18%;
+            width: 24%;
           }
           .fried-NeoChef{
             display: flex;
             justify-content: center;
             align-items: center;
-            width: 22%;
+            width:24%;
 
           }
           .grilled-NeoChef{
             display: flex;
             justify-content: center;
             align-items: center;
-            width: 18%;
+            width: 24%;
           }
         }
       }
