@@ -19,6 +19,9 @@
     background-size:100% 105%;
     background-position: center;
     background-repeat: no-repeat;
+    .pad-footer-NeoChef{
+      display: none;
+    }
   }
   .table-footer-NeoChef{
     display: flex;
@@ -162,6 +165,103 @@
       display: flex;
       flex-basis: 33%;
       justify-content: center;
+    }
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px){
+  .container-footer-NeoChef{
+    padding-top: 20px;
+    .main-footere-NeoChef{
+      background-image: none;
+      width: 100%;
+      .footer-last{
+        display:none ;
+      }
+      .table-footer-NeoChef{
+        display:none ;
+      }
+      .pad-footer-NeoChef{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        h1{
+          display: flex;
+          justify-content: center;
+          text-align: center;
+          font-size: 40px;
+          line-height: 40px;
+          font-weight: 400;
+          color: #c9c9c9;
+          font-family: 'LG Smart Light', sans-serif !important;
+          padding-bottom: 20px;
+        }
+        p{
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          text-align: center;
+          color: #c9c9c9;
+          font-family: "LG Smart Light",sans-serif!important;;
+          font-weight: 300;
+          font-size: 24px;
+          line-height: 30px;
+          opacity: 0.8;
+        }
+        .pad-footer-NeoChef1{
+          background-image: url("../img/pad-bg-footer1.png");
+          background-size:100% 455px;
+          background-position: center 70%;
+          background-repeat: no-repeat;
+          .pad-lg-NeoChef1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-bottom: 424px;
+          }
+          p{
+            padding-bottom: 59px;
+          }
+        }
+        .pad-footer-NeoChef2{
+          background-image: url("../img/pad-bg-footer2.png");
+          background-size:100% 377px;
+          background-position: center 60%;
+          background-repeat: no-repeat;
+          p{
+            padding-bottom: 59px;
+          }
+          .pad-last-NeoChef{
+            padding-top: 390px;
+          }
+        }
+        .pad-footer-NeoChef3{
+          background-image: url("../img/pad-bg-footer3.png");
+          background-size:100% 584px;
+          background-position: center 60%;
+          background-repeat: no-repeat;
+          p{
+            padding-bottom: 59px;
+          }
+          .pad-lg-NeoChef{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+          .pad-last-NeoChef{
+            padding-top:476px;
+          }
+        }
+        .pad-last-NeoChef{
+          p{
+            color: #6b6b6b;
+            font-family: "LG Smart Light",sans-serif!important;
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 16px;
+            text-align: center;
+          }
+        }
+      }
     }
   }
 }

@@ -161,7 +161,7 @@
   .container-chicken-NeoChef{
     background-image: url("../img/chicken-pad.png");
     background-size: inherit;
-    padding: 60px 50px;
+    padding: 30px 50px 60px 50px;
 
     .main-chicken-NeoChef{
       .title-chicken-NeoChef{
@@ -169,7 +169,7 @@
         margin: 0 auto;
       }
       .calc-chicken-NeoChef{
-        padding-top: 57px;
+        padding-top: 30px;
         padding-left: 0;
           img{
             width: 60px;
@@ -185,16 +185,23 @@
             justify-content: center;
             align-items: center;
             width: 30%;
+            p{
+              padding-top: 11px;
+            }
           }
           .microwave-NeoChef{
             display: flex;
             justify-content: center;
             align-items: center;
             width: 30%;
+            p{
+              line-height: 16px;
+              padding-top: 7px;
+            }
           }
         }
         .summ-NeoChef{
-          padding: 0;
+          padding: 0 0 20px 0;
           .plus-NeoChef{
             width:40%;
             padding-left: 50px;
@@ -220,6 +227,7 @@
         .grill-NeoChef{
           padding-left: 3%;
           p{
+            padding-top: 11px;
           }
           .yogurt-NeoChef{
             display: flex;
@@ -243,7 +251,7 @@
         }
       }
       .bottom-text-NeoChef{
-        padding-top: 120px;
+        padding-top: 100px;
 
       }
     }
