@@ -80,3 +80,40 @@
 
   }
 }
+@media (min-width: 320px) and (max-width: 480px){
+  .container-microwave-NeoChef{
+    background-image: url("../img/mob-bg-micro.png");
+    background-size:100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-left: 5px ;
+    padding-right: 5px;
+    padding-top: 10px;
+    .main-microwave-NeoChef{
+      padding-top: 0;
+      .title-smart-NeoChef{
+        width: 95%;
+        h1{
+          font-size: 23px;
+          padding-bottom: 5px;
+          line-height: 28px;
+        }
+        p{
+          font-size: 16px;
+          line-height: 21px;
+        }
+      }
+      .bottom-microwave-NeoChef{
+        padding-top: 264px;
+        padding-bottom: 10px;
+        p{
+          font-size: 9px;
+          font-weight: 300;
+          line-height: 10px;
+          padding-top: 50px;
+        }
+      }
+    }
+
+  }
+}

@@ -124,6 +124,7 @@
         padding-top: 35px;
         flex-direction: column;
         display: flex;
+
         .video-chef-NeoChef{
           display: flex;
           flex-basis: 100% ;
@@ -141,6 +142,83 @@
           p{
             padding-right: 304px;
             text-align: right;
+          }
+        }
+      }
+    }
+  }
+}
+@media (min-width: 320px) and (max-width: 480px){
+  .contained-chef-NeoChef{
+    padding: 0 5px;
+
+    .main-chef-NeoChef{
+      width: 100%;
+      .title-chef-NeoChef{
+          display: flex;
+        justify-content: center;
+        align-items: center;
+        p{
+          padding-top: 55px;
+          font-size: 9px;
+          font-weight: 300;
+          line-height: 16px;
+        }
+      }
+      .bio-chef-NeoChef{
+        width: 100%;
+        padding-top: 35px;
+        flex-direction: column;
+        display: flex;
+        .info-chef-NeoChef{
+          flex-basis: 20%;
+
+          img{
+            width: 102px;
+            height: 102px;
+          }
+          .description-chef-NeoChef{
+            padding: 0 0 0 21px;
+            .description-chef-NeoChef-title{
+              padding-bottom: 0;
+              h1{
+                font-size: 16px;
+              }
+              p{
+                padding-bottom: 10px;
+                font-size: 16px;
+              }
+            }
+            .description-chef-NeoChef-story{
+              padding-top: 10px;
+              p{
+                font-size: 12px;
+              }
+            }
+          }
+        }
+        .video-chef-NeoChef{
+          display: flex;
+          flex-basis: 100% ;
+          justify-content: center;
+          align-items: center;
+          padding-top: 50px;
+          padding-bottom: 41px;
+          img{
+            max-width: 300px;
+            max-height:147px;
+          }
+          h1{
+            padding-top: 12px;
+            padding-right: 250px;
+            text-align: left;
+            font-size: 16px;
+          }
+          p{
+            padding-top: 5px;
+            padding-right:211px;
+            font-size: 12px;
+            text-align: left;
           }
         }
       }

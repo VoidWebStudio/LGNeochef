@@ -53,6 +53,9 @@
       .pad-microwave{
         display: none;
       }
+      .mob-microwave{
+        display: none;
+      }
     }
   }
 
@@ -78,6 +81,9 @@
         .desk-microwave{
           display: none;
         }
+        .mob-microwave{
+          display: none;
+        }
         .pad-microwave{
           display: block;
         }
@@ -86,5 +92,46 @@
 
   }
 
+
+}
+@media (min-width: 320px) and (max-width: 480px) {
+
+  .container-NeoChef{
+    .contained-header-NeoChef{
+      padding-left: 5px;
+      padding-right: 5px;
+      .header-NeoChef{
+        padding-left: 30px;
+        padding-right: 30px;
+        .header-title-NeoChef{
+          padding-top: 50px;
+          h1{
+            padding-bottom: 0;
+            font-size: 23px;
+            line-height: 1.2;
+          }
+          p{
+            font-weight: 300;
+            line-height: 21px;
+            font-size: 16px;
+            padding-top: 16px;
+          }
+        }
+        .header-microwave-NeoChef{
+          margin-bottom: -15%;
+          .desk-microwave{
+            display: none;
+          }
+          .pad-microwave{
+            display: none;
+          }
+          .mob-microwave{
+            display: block;
+          }
+        }
+      }
+    }
+
+  }
 
 }
