@@ -1,20 +1,20 @@
 .container-microwave-NeoChef{
   display: flex;
   background-image: url("../img/bg-micro.png");
-  background-size: cover;
+  background-size: 100% 100%;
   background-position: center;
   background-repeat: no-repeat;
   width: 100%;
   height: auto;
   padding: 50px 120px;
   .main-microwave-NeoChef{
-    max-width: 1485px;
-    margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding-top: 75px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
     .title-smart-NeoChef{
       display: flex;
       justify-content: center;
@@ -25,7 +25,7 @@
         display: flex;
         justify-content: center;
         text-align: center;
-        font-family: "LG Smart",sans-serif;
+        font-family: 'LG Smart',sans-serif!important;
         color: #c9c9c9;
         font-size: 40px;
         font-weight: 400;
@@ -36,11 +36,11 @@
         display: flex;
         justify-content: center;
         text-align: center;
-        font-family: "LG Smart",sans-serif;
-        color: #c9c9c9;
-        font-size: 24px;
+        font-family: 'LG Smart',sans-serif!important;
         font-weight: 300;
         line-height: 30px;
+        color: #c9c9c9;
+        font-size: 24px;
         opacity: 0.8;
       }
     }
@@ -48,7 +48,7 @@
       padding-top: 50%;
       p{
         color: #6b6b6b;
-        font-family: "LG Smart Light",sans-serif;
+        font-family: 'LG Smart',sans-serif!important;
         font-size: 14px;
         font-weight: 300;
         line-height: 16px;
