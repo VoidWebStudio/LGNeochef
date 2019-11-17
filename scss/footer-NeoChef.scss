@@ -233,6 +233,9 @@
           p{
             padding-bottom: 59px;
           }
+          .pad-logo-NeoChef1{
+            display: none;
+          }
           .pad-last-NeoChef{
             padding-top: 390px;
           }
@@ -243,7 +246,7 @@
           background-position: center 60%;
           background-repeat: no-repeat;
           p{
-            padding-bottom: 59px;
+            padding-bottom: 40px;
           }
           .pad-logo-NeoChef1{
             display: none;
@@ -252,9 +255,10 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            padding-bottom:70px;
           }
           .pad-last-NeoChef{
-            padding-top:476px;
+            padding-top:300px;
           }
         }
         .pad-last-NeoChef{
@@ -316,20 +320,25 @@
           background-size:100% 300px;
           background-position: center 90%;
           background-repeat: no-repeat;
+          .pad-text-NeoChef{
+            p{
+              padding-bottom: 45px;
+            }
+          }
           .pad-lg-NeoChef1{
             display: flex;
             justify-content: center;
             align-items: center;
           }
           .pad-logo-NeoChef1{
-            padding-bottom: 240px;
+            padding-bottom: 270px;
             display: flex;
             justify-content: center;
             align-items: center;
             padding-top: 37px;
           }
           p{
-            padding-bottom: 59px;
+            padding-bottom: 20px;
             br:nth-child(1){
               display: none;
             }
@@ -358,7 +367,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            padding-top: 37px;
+            padding-top: 0;
           }
           .pad-last-NeoChef{
           }
@@ -366,9 +375,9 @@
         .pad-footer-NeoChef3{
           background-image: url("../img/mob-bg-footer3.png");
           background-size:100% 300px;
-          background-position: center 90%;
+          background-position: center 110%;
           background-repeat: no-repeat;
-          padding-bottom: 50px;
+          padding-bottom: 0;
           p{
             br:nth-child(2){
               display: none;
@@ -388,7 +397,7 @@
           }
           .pad-last-NeoChef{
             display: flex;
-            padding-top: 40px;
+            padding-top: 0;
           }
 
           .pad-lg-NeoChef{

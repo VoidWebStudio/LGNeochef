@@ -3,7 +3,7 @@
   display: -webkit-flex;
   display: flex;
   height: auto;
-  padding: 176px 120px 80px 120px;
+  padding: 140px 120px 80px 120px;
   width: 100%; }
   .contained-chef-NeoChef .main-chef-NeoChef {
     display: -webkit-box;
@@ -37,10 +37,11 @@
       -webkit-align-items: center;
       align-items: center; }
       .contained-chef-NeoChef .main-chef-NeoChef .title-chef-NeoChef p {
-        font-size: 16px;
-        font-family: "LG Smart", sans-serif !important;
+        font-size: 14px;
         color: #6b6b6b;
-        line-height: 1.143;
+        font-family: "LG Smart Light", sans-serif !important;
+        font-weight: 300;
+        line-height: 16px;
         text-align: center; }
     .contained-chef-NeoChef .main-chef-NeoChef .bio-chef-NeoChef {
       display: -webkit-box;
@@ -212,9 +213,11 @@
             .contained-chef-NeoChef .main-chef-NeoChef .bio-chef-NeoChef .info-chef-NeoChef .description-chef-NeoChef .description-chef-NeoChef-title {
               padding-bottom: 0; }
               .contained-chef-NeoChef .main-chef-NeoChef .bio-chef-NeoChef .info-chef-NeoChef .description-chef-NeoChef .description-chef-NeoChef-title h1 {
-                font-size: 16px; }
+                font-size: 16px;
+                padding-bottom: 0; }
               .contained-chef-NeoChef .main-chef-NeoChef .bio-chef-NeoChef .info-chef-NeoChef .description-chef-NeoChef .description-chef-NeoChef-title p {
                 padding-bottom: 10px;
+                padding-top: 0;
                 font-size: 16px; }
             .contained-chef-NeoChef .main-chef-NeoChef .bio-chef-NeoChef .info-chef-NeoChef .description-chef-NeoChef .description-chef-NeoChef-story {
               padding-top: 10px; }
@@ -304,8 +307,7 @@
       -webkit-flex-direction: column;
       flex-direction: column;
       padding-top: 120px;
-      padding-left: 50px;
-      width: 70%;
+      width: 80%;
       margin: 0 auto; }
       .container-chicken-NeoChef .main-chicken-NeoChef .calc-chicken-NeoChef p {
         color: #cccccc;
@@ -392,7 +394,9 @@
           text-align: center;
           padding-right: 10%; }
           .container-chicken-NeoChef .main-chicken-NeoChef .calc-chicken-NeoChef .summ-NeoChef h1 span {
-            font-size: 56px; }
+            font-size: 56px;
+            padding-left: 10px;
+            padding-right: 5px; }
         .container-chicken-NeoChef .main-chicken-NeoChef .calc-chicken-NeoChef .summ-NeoChef p {
           font-size: 16px;
           font-family: "LG Smart", sans-serif !important;
@@ -410,7 +414,7 @@
         -webkit-box-align: center;
         -webkit-align-items: center;
         align-items: center;
-        padding-right: 25%; }
+        padding-right: 40%; }
         .container-chicken-NeoChef .main-chicken-NeoChef .calc-chicken-NeoChef .grill-NeoChef p {
           padding-top: 20px; }
         .container-chicken-NeoChef .main-chicken-NeoChef .calc-chicken-NeoChef .grill-NeoChef .yogurt-NeoChef {
@@ -421,7 +425,8 @@
           -webkit-box-direction: normal;
           -webkit-flex-direction: column;
           flex-direction: column;
-          width: 20%; }
+          width: 25%;
+          padding-right: 50px; }
         .container-chicken-NeoChef .main-chicken-NeoChef .calc-chicken-NeoChef .grill-NeoChef .fried-NeoChef {
           display: -webkit-box;
           display: -webkit-flex;
@@ -430,7 +435,7 @@
           -webkit-box-direction: normal;
           -webkit-flex-direction: column;
           flex-direction: column;
-          width: 25%; }
+          width: 30%; }
         .container-chicken-NeoChef .main-chicken-NeoChef .calc-chicken-NeoChef .grill-NeoChef .grilled-NeoChef {
           display: -webkit-box;
           display: -webkit-flex;
@@ -439,9 +444,14 @@
           -webkit-box-direction: normal;
           -webkit-flex-direction: column;
           flex-direction: column;
-          width: 20%; }
+          width: 25%; }
+    .container-chicken-NeoChef .main-chicken-NeoChef .logo-chicken-pad {
+      display: none; }
+    .container-chicken-NeoChef .main-chicken-NeoChef .logo-chicken-lg {
+      padding-top: 46px;
+      padding-bottom: 25px; }
     .container-chicken-NeoChef .main-chicken-NeoChef .bottom-text-NeoChef {
-      padding-top: 185px; }
+      padding-top: 0; }
       .container-chicken-NeoChef .main-chicken-NeoChef .bottom-text-NeoChef p {
         font-size: 14px;
         font-family: "LG Smart", sans-serif !important;
@@ -451,13 +461,15 @@
 
 @media (min-width: 768px) and (max-width: 1024px) {
   .container-chicken-NeoChef {
-    background-image: url("../img/chicken-pad.png");
-    background-size: inherit;
-    padding: 30px 50px 60px 50px; }
+    background-image: url("../img/bg-chicken-pad.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 30px 50px 10px 50px; }
     .container-chicken-NeoChef .main-chicken-NeoChef .title-chicken-NeoChef {
       width: 85%;
       margin: 0 auto; }
     .container-chicken-NeoChef .main-chicken-NeoChef .calc-chicken-NeoChef {
+      width: 90%;
       padding-top: 30px;
       padding-left: 0; }
       .container-chicken-NeoChef .main-chicken-NeoChef .calc-chicken-NeoChef img {
@@ -477,7 +489,7 @@
           -webkit-box-align: center;
           -webkit-align-items: center;
           align-items: center;
-          width: 30%; }
+          width: 25%; }
           .container-chicken-NeoChef .main-chicken-NeoChef .calc-chicken-NeoChef .pan-microwave-NeoChef .pan-NeoChef p {
             padding-top: 11px; }
         .container-chicken-NeoChef .main-chicken-NeoChef .calc-chicken-NeoChef .pan-microwave-NeoChef .microwave-NeoChef {
@@ -490,12 +502,12 @@
           -webkit-box-align: center;
           -webkit-align-items: center;
           align-items: center;
-          width: 30%; }
+          width: 25%; }
           .container-chicken-NeoChef .main-chicken-NeoChef .calc-chicken-NeoChef .pan-microwave-NeoChef .microwave-NeoChef p {
             line-height: 16px;
             padding-top: 7px; }
       .container-chicken-NeoChef .main-chicken-NeoChef .calc-chicken-NeoChef .summ-NeoChef {
-        padding: 0 0 20px 0; }
+        padding: 0 80px 20px 0; }
         .container-chicken-NeoChef .main-chicken-NeoChef .calc-chicken-NeoChef .summ-NeoChef .plus-NeoChef {
           width: 40%;
           padding-left: 50px; }
@@ -507,12 +519,31 @@
           .container-chicken-NeoChef .main-chicken-NeoChef .calc-chicken-NeoChef .summ-NeoChef .eq-NeoChef img {
             width: 35px;
             height: 26px; }
-        .container-chicken-NeoChef .main-chicken-NeoChef .calc-chicken-NeoChef .summ-NeoChef h1 {
-          font-size: 58px; }
-          .container-chicken-NeoChef .main-chicken-NeoChef .calc-chicken-NeoChef .summ-NeoChef h1 span {
-            font-size: 40px; }
+        .container-chicken-NeoChef .main-chicken-NeoChef .calc-chicken-NeoChef .summ-NeoChef .result-NeoChef {
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: flex;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+          -webkit-flex-direction: column;
+          flex-direction: column; }
+          .container-chicken-NeoChef .main-chicken-NeoChef .calc-chicken-NeoChef .summ-NeoChef .result-NeoChef h1 {
+            font-size: 58px; }
+            .container-chicken-NeoChef .main-chicken-NeoChef .calc-chicken-NeoChef .summ-NeoChef .result-NeoChef h1 span {
+              font-size: 40px; }
+          .container-chicken-NeoChef .main-chicken-NeoChef .calc-chicken-NeoChef .summ-NeoChef .result-NeoChef p {
+            font-size: 13px;
+            font-weight: 400; }
       .container-chicken-NeoChef .main-chicken-NeoChef .calc-chicken-NeoChef .grill-NeoChef {
-        padding-left: 3%; }
+        width: 100%;
+        -webkit-box-pack: start;
+        -webkit-justify-content: flex-start;
+        justify-content: flex-start;
+        -webkit-box-align: start;
+        -webkit-align-items: flex-start;
+        align-items: flex-start;
+        margin-left: -25px;
+        padding-right: 150px; }
         .container-chicken-NeoChef .main-chicken-NeoChef .calc-chicken-NeoChef .grill-NeoChef p {
           padding-top: 11px; }
         .container-chicken-NeoChef .main-chicken-NeoChef .calc-chicken-NeoChef .grill-NeoChef .yogurt-NeoChef {
@@ -525,7 +556,8 @@
           -webkit-box-align: center;
           -webkit-align-items: center;
           align-items: center;
-          width: 24%; }
+          width: 25%;
+          padding: 0; }
         .container-chicken-NeoChef .main-chicken-NeoChef .calc-chicken-NeoChef .grill-NeoChef .fried-NeoChef {
           display: -webkit-box;
           display: -webkit-flex;
@@ -536,7 +568,7 @@
           -webkit-box-align: center;
           -webkit-align-items: center;
           align-items: center;
-          width: 24%; }
+          width: 25%; }
         .container-chicken-NeoChef .main-chicken-NeoChef .calc-chicken-NeoChef .grill-NeoChef .grilled-NeoChef {
           display: -webkit-box;
           display: -webkit-flex;
@@ -547,14 +579,20 @@
           -webkit-box-align: center;
           -webkit-align-items: center;
           align-items: center;
-          width: 24%; }
+          width: 25%; }
+    .container-chicken-NeoChef .main-chicken-NeoChef .logo-chicken-pad {
+      display: block;
+      padding-top: 37px; }
+    .container-chicken-NeoChef .main-chicken-NeoChef .logo-chicken-lg {
+      display: none; }
     .container-chicken-NeoChef .main-chicken-NeoChef .bottom-text-NeoChef {
-      padding-top: 100px; } }
+      padding-top: 19px; } }
 
 @media (min-width: 320px) and (max-width: 480px) {
   .container-chicken-NeoChef {
     background-image: url("../img/mob-bg-chicken.png");
-    background-size: inherit;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
     padding: 10px 5px 20px 5px; }
     .container-chicken-NeoChef .main-chicken-NeoChef .title-chicken-NeoChef {
       width: 100%;
@@ -582,7 +620,7 @@
       .container-chicken-NeoChef .main-chicken-NeoChef .calc-chicken-NeoChef p {
         font-size: 14px; }
       .container-chicken-NeoChef .main-chicken-NeoChef .calc-chicken-NeoChef .pan-microwave-NeoChef {
-        padding: 0 0 0 0;
+        padding: 0 30px 0 0;
         width: 100%; }
         .container-chicken-NeoChef .main-chicken-NeoChef .calc-chicken-NeoChef .pan-microwave-NeoChef .pan-NeoChef {
           display: -webkit-box;
@@ -615,28 +653,34 @@
         padding: 0 0 0 55px; }
         .container-chicken-NeoChef .main-chicken-NeoChef .calc-chicken-NeoChef .summ-NeoChef .plus-NeoChef {
           width: 40%;
-          padding-left: 50px; }
+          padding-left: 40px; }
           .container-chicken-NeoChef .main-chicken-NeoChef .calc-chicken-NeoChef .summ-NeoChef .plus-NeoChef img {
             width: 25px;
             height: 25px; }
         .container-chicken-NeoChef .main-chicken-NeoChef .calc-chicken-NeoChef .summ-NeoChef .eq-NeoChef {
-          width: 10%;
+          width: 15%;
           padding-left: 50px; }
           .container-chicken-NeoChef .main-chicken-NeoChef .calc-chicken-NeoChef .summ-NeoChef .eq-NeoChef img {
             width: 25px;
             height: 18px; }
-        .container-chicken-NeoChef .main-chicken-NeoChef .calc-chicken-NeoChef .summ-NeoChef h1 {
-          font-size: 40px;
-          padding-left: 50px; }
-          .container-chicken-NeoChef .main-chicken-NeoChef .calc-chicken-NeoChef .summ-NeoChef h1 span {
-            font-size: 30px; }
+        .container-chicken-NeoChef .main-chicken-NeoChef .calc-chicken-NeoChef .summ-NeoChef .result-NeoChef {
+          padding-top: 10px; }
+          .container-chicken-NeoChef .main-chicken-NeoChef .calc-chicken-NeoChef .summ-NeoChef .result-NeoChef h1 {
+            font-size: 40px;
+            padding-left: 40px; }
+            .container-chicken-NeoChef .main-chicken-NeoChef .calc-chicken-NeoChef .summ-NeoChef .result-NeoChef h1 span {
+              font-size: 30px;
+              padding-left: 2px;
+              padding-right: 2px; }
         .container-chicken-NeoChef .main-chicken-NeoChef .calc-chicken-NeoChef .summ-NeoChef p {
           font-size: 12px;
           font-weight: 400;
-          padding-left: 40px; }
+          padding-left: 30px; }
       .container-chicken-NeoChef .main-chicken-NeoChef .calc-chicken-NeoChef .grill-NeoChef {
-        width: 100%;
-        padding-left: 1%; }
+        width: 90%;
+        padding-left: 0;
+        margin-left: 0;
+        padding-right: 17%; }
         .container-chicken-NeoChef .main-chicken-NeoChef .calc-chicken-NeoChef .grill-NeoChef p {
           padding-top: 11px; }
         .container-chicken-NeoChef .main-chicken-NeoChef .calc-chicken-NeoChef .grill-NeoChef .yogurt-NeoChef {
@@ -649,7 +693,8 @@
           -webkit-box-align: center;
           -webkit-align-items: center;
           align-items: center;
-          width: 40%; }
+          padding-right: 10px;
+          width: 38%; }
         .container-chicken-NeoChef .main-chicken-NeoChef .calc-chicken-NeoChef .grill-NeoChef .fried-NeoChef {
           display: -webkit-box;
           display: -webkit-flex;
@@ -660,7 +705,7 @@
           -webkit-box-align: center;
           -webkit-align-items: center;
           align-items: center;
-          width: 40%; }
+          width: 38%; }
         .container-chicken-NeoChef .main-chicken-NeoChef .calc-chicken-NeoChef .grill-NeoChef .grilled-NeoChef {
           display: -webkit-box;
           display: -webkit-flex;
@@ -671,7 +716,9 @@
           -webkit-box-align: center;
           -webkit-align-items: center;
           align-items: center;
-          width: 44%; }
+          width: 38%; }
+    .container-chicken-NeoChef .main-chicken-NeoChef .logo-chicken-lg {
+      display: none; }
     .container-chicken-NeoChef .main-chicken-NeoChef .bottom-text-NeoChef {
       padding-top: 176px; }
       .container-chicken-NeoChef .main-chicken-NeoChef .bottom-text-NeoChef p {
@@ -1016,6 +1063,8 @@
           background-repeat: no-repeat; }
           .container-footer-NeoChef .main-footere-NeoChef .pad-footer-NeoChef .pad-footer-NeoChef2 p {
             padding-bottom: 59px; }
+          .container-footer-NeoChef .main-footere-NeoChef .pad-footer-NeoChef .pad-footer-NeoChef2 .pad-logo-NeoChef1 {
+            display: none; }
           .container-footer-NeoChef .main-footere-NeoChef .pad-footer-NeoChef .pad-footer-NeoChef2 .pad-last-NeoChef {
             padding-top: 390px; }
         .container-footer-NeoChef .main-footere-NeoChef .pad-footer-NeoChef .pad-footer-NeoChef3 {
@@ -1024,7 +1073,7 @@
           background-position: center 60%;
           background-repeat: no-repeat; }
           .container-footer-NeoChef .main-footere-NeoChef .pad-footer-NeoChef .pad-footer-NeoChef3 p {
-            padding-bottom: 59px; }
+            padding-bottom: 40px; }
           .container-footer-NeoChef .main-footere-NeoChef .pad-footer-NeoChef .pad-footer-NeoChef3 .pad-logo-NeoChef1 {
             display: none; }
           .container-footer-NeoChef .main-footere-NeoChef .pad-footer-NeoChef .pad-footer-NeoChef3 .pad-lg-NeoChef {
@@ -1036,9 +1085,10 @@
             justify-content: center;
             -webkit-box-align: center;
             -webkit-align-items: center;
-            align-items: center; }
+            align-items: center;
+            padding-bottom: 70px; }
           .container-footer-NeoChef .main-footere-NeoChef .pad-footer-NeoChef .pad-footer-NeoChef3 .pad-last-NeoChef {
-            padding-top: 476px; }
+            padding-top: 300px; }
         .container-footer-NeoChef .main-footere-NeoChef .pad-footer-NeoChef .pad-last-NeoChef p {
           color: #6b6b6b;
           font-family: "LG Smart Light", sans-serif !important;
@@ -1101,6 +1151,8 @@
           background-size: 100% 300px;
           background-position: center 90%;
           background-repeat: no-repeat; }
+          .container-footer-NeoChef .main-footere-NeoChef .pad-footer-NeoChef .pad-footer-NeoChef1 .pad-text-NeoChef p {
+            padding-bottom: 45px; }
           .container-footer-NeoChef .main-footere-NeoChef .pad-footer-NeoChef .pad-footer-NeoChef1 .pad-lg-NeoChef1 {
             display: -webkit-box;
             display: -webkit-flex;
@@ -1112,7 +1164,7 @@
             -webkit-align-items: center;
             align-items: center; }
           .container-footer-NeoChef .main-footere-NeoChef .pad-footer-NeoChef .pad-footer-NeoChef1 .pad-logo-NeoChef1 {
-            padding-bottom: 240px;
+            padding-bottom: 270px;
             display: -webkit-box;
             display: -webkit-flex;
             display: flex;
@@ -1124,7 +1176,7 @@
             align-items: center;
             padding-top: 37px; }
           .container-footer-NeoChef .main-footere-NeoChef .pad-footer-NeoChef .pad-footer-NeoChef1 p {
-            padding-bottom: 59px; }
+            padding-bottom: 20px; }
             .container-footer-NeoChef .main-footere-NeoChef .pad-footer-NeoChef .pad-footer-NeoChef1 p br:nth-child(1) {
               display: none; }
         .container-footer-NeoChef .main-footere-NeoChef .pad-footer-NeoChef .pad-footer-NeoChef2 {
@@ -1152,13 +1204,13 @@
             -webkit-box-align: center;
             -webkit-align-items: center;
             align-items: center;
-            padding-top: 37px; }
+            padding-top: 0; }
         .container-footer-NeoChef .main-footere-NeoChef .pad-footer-NeoChef .pad-footer-NeoChef3 {
           background-image: url("../img/mob-bg-footer3.png");
           background-size: 100% 300px;
-          background-position: center 90%;
+          background-position: center 110%;
           background-repeat: no-repeat;
-          padding-bottom: 50px; }
+          padding-bottom: 0; }
           .container-footer-NeoChef .main-footere-NeoChef .pad-footer-NeoChef .pad-footer-NeoChef3 p br:nth-child(2) {
             display: none; }
           .container-footer-NeoChef .main-footere-NeoChef .pad-footer-NeoChef .pad-footer-NeoChef3 p br:nth-child(1) {
@@ -1179,7 +1231,7 @@
             display: -webkit-box;
             display: -webkit-flex;
             display: flex;
-            padding-top: 40px; }
+            padding-top: 0; }
           .container-footer-NeoChef .main-footere-NeoChef .pad-footer-NeoChef .pad-footer-NeoChef3 .pad-lg-NeoChef {
             display: -webkit-box;
             display: -webkit-flex;
@@ -1269,12 +1321,14 @@
         line-height: 0.625;
         text-align: center;
         padding-bottom: 65px; }
+        .container-NeoChef .header-NeoChef .header-title-NeoChef h1 br {
+          display: none; }
       .container-NeoChef .header-NeoChef .header-title-NeoChef p {
         opacity: 0.7;
         color: #ffffff;
         font-family: "LG Smart Light", sans-serif !important;
         font-size: 30px;
-        font-weight: 300;
+        font-weight: 200;
         line-height: 36px;
         text-align: center; }
     .container-NeoChef .header-NeoChef .header-microwave-NeoChef {
@@ -1291,8 +1345,8 @@
     .container-NeoChef .header-NeoChef .header-title-NeoChef {
       padding-top: 50px; }
       .container-NeoChef .header-NeoChef .header-title-NeoChef h1 {
-        line-height: 1.2;
-        padding: 0 50px; }
+        line-height: 45px;
+        padding: 0 0; }
       .container-NeoChef .header-NeoChef .header-title-NeoChef p {
         padding-top: 47px; }
     .container-NeoChef .header-NeoChef .header-microwave-NeoChef {
@@ -1444,8 +1498,6 @@
             border-radius: 50% !important; }
             .container-meat-NeoChef .main-meat-NeoChef .pizza-meat-NeoChef .degree-meat-NeoChef .cups-meat-NeoChef .simple-meat-NeoChef .arrow-meat-NeoChef {
               padding-bottom: 70px; }
-            .container-meat-NeoChef .main-meat-NeoChef .pizza-meat-NeoChef .degree-meat-NeoChef .cups-meat-NeoChef .simple-meat-NeoChef .mob-logo-meat {
-              display: none; }
             .container-meat-NeoChef .main-meat-NeoChef .pizza-meat-NeoChef .degree-meat-NeoChef .cups-meat-NeoChef .simple-meat-NeoChef h1 {
               display: -webkit-box;
               display: -webkit-flex;
@@ -1492,6 +1544,8 @@
             -webkit-border-radius: 50% !important;
             border-radius: 50% !important;
             margin-left: 10px; }
+            .container-meat-NeoChef .main-meat-NeoChef .pizza-meat-NeoChef .degree-meat-NeoChef .cups-meat-NeoChef .neo-meat-NeoChef .mob-logo-meat {
+              display: none; }
             .container-meat-NeoChef .main-meat-NeoChef .pizza-meat-NeoChef .degree-meat-NeoChef .cups-meat-NeoChef .neo-meat-NeoChef .arrow-meat-NeoChef {
               display: -webkit-box;
               display: -webkit-flex;
@@ -1594,6 +1648,8 @@
           -webkit-box-direction: reverse;
           -webkit-flex-direction: row-reverse;
           flex-direction: row-reverse; }
+          .container-meat-NeoChef .main-meat-NeoChef .stake-meat-NeoChef .degree-stake-NeoChef .cups-meat-NeoChef .scale-meat-right-NeoChef {
+            display: none; }
           .container-meat-NeoChef .main-meat-NeoChef .stake-meat-NeoChef .degree-stake-NeoChef .cups-meat-NeoChef .simple-stake-NeoChef {
             width: 205px;
             height: 205px;
@@ -1689,8 +1745,28 @@
               padding-left: 10px; }
             .container-meat-NeoChef .main-meat-NeoChef .stake-meat-NeoChef .degree-stake-NeoChef .cups-meat-NeoChef .scale-stake-NeoChef .scale-text-NeoChef p:first-child {
               padding-bottom: 169px; }
+    .container-meat-NeoChef .main-meat-NeoChef .logo-meat-NeoChef {
+      display: none; }
+    .container-meat-NeoChef .main-meat-NeoChef .logo-meat-lg-NeoChef {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: flex;
+      width: 40%;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+      justify-content: space-between;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+      padding-top: 96px;
+      padding-bottom: 49px; }
+      .container-meat-NeoChef .main-meat-NeoChef .logo-meat-lg-NeoChef img:first-child {
+        width: 101px;
+        height: 105px; }
+      .container-meat-NeoChef .main-meat-NeoChef .logo-meat-lg-NeoChef img:nth-child(2) {
+        width: 109px; }
     .container-meat-NeoChef .main-meat-NeoChef .bottom-meat-NeoChef {
-      padding-top: 250px; }
+      padding-top: 0; }
       .container-meat-NeoChef .main-meat-NeoChef .bottom-meat-NeoChef p {
         font-size: 14px;
         font-family: "LG Smart Light",sans-serif;
@@ -1702,7 +1778,7 @@
   .container-meat-NeoChef {
     background-image: url("../img/bg-meat-pad.png");
     background-size: 100% 100%;
-    padding: 60px 50px; }
+    padding: 20px 50px; }
     .container-meat-NeoChef .main-meat-NeoChef .pizza-meat-NeoChef .degree-meat-NeoChef h1 {
       font-size: 14px;
       padding-bottom: 0;
@@ -1734,7 +1810,8 @@
       .container-meat-NeoChef .main-meat-NeoChef .pizza-meat-NeoChef .degree-meat-NeoChef .cups-meat-NeoChef .neo-meat-NeoChef p {
         font-size: 14px; }
     .container-meat-NeoChef .main-meat-NeoChef .stake-meat-NeoChef {
-      padding-top: 40px;
+      margin-top: 100px;
+      padding-top: 0;
       padding-bottom: 60px; }
       .container-meat-NeoChef .main-meat-NeoChef .stake-meat-NeoChef .degree-stake-NeoChef h1 {
         font-size: 14px;
@@ -1757,8 +1834,18 @@
           margin-bottom: 100px; }
         .container-meat-NeoChef .main-meat-NeoChef .stake-meat-NeoChef .degree-stake-NeoChef .cups-meat-NeoChef .neo-stake-NeoChef p {
           font-size: 14px; }
+    .container-meat-NeoChef .main-meat-NeoChef .logo-meat-NeoChef {
+      width: 37%;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+      justify-content: space-between; }
+    .container-meat-NeoChef .main-meat-NeoChef .logo-meat-lg-NeoChef {
+      display: none; }
     .container-meat-NeoChef .main-meat-NeoChef .bottom-meat-NeoChef {
-      padding-top: 80px; } }
+      padding-top: 51px; } }
 
 @media (min-width: 320px) and (max-width: 480px) {
   .container-meat-NeoChef {
@@ -1766,6 +1853,7 @@
     background-size: 100% 100%;
     padding: 10px 5px; }
     .container-meat-NeoChef .main-meat-NeoChef .title-meat-NeoChef h1 {
+      width: 70%;
       font-size: 23px;
       line-height: 28px; }
     .container-meat-NeoChef .main-meat-NeoChef .title-meat-NeoChef p {
@@ -1809,6 +1897,8 @@
               height: 36px; }
           .container-meat-NeoChef .main-meat-NeoChef .pizza-meat-NeoChef .degree-meat-NeoChef .cups-meat-NeoChef .neo-meat-NeoChef .desk-logo-meat {
             display: none; }
+          .container-meat-NeoChef .main-meat-NeoChef .pizza-meat-NeoChef .degree-meat-NeoChef .cups-meat-NeoChef .neo-meat-NeoChef .mob-logo-meat {
+            display: block; }
           .container-meat-NeoChef .main-meat-NeoChef .pizza-meat-NeoChef .degree-meat-NeoChef .cups-meat-NeoChef .neo-meat-NeoChef h1 {
             margin-top: 25px;
             margin-bottom: 20px;
@@ -1881,6 +1971,10 @@
           padding-bottom: 90px; }
       .container-meat-NeoChef .main-meat-NeoChef .stake-meat-NeoChef .degree-stake-NeoChef .cups-meat-NeoChef .scale-stake-NeoChef {
         display: none; }
+    .container-meat-NeoChef .main-meat-NeoChef .logo-meat-NeoChef {
+      display: none; }
+    .container-meat-NeoChef .main-meat-NeoChef .logo-meat-lg-NeoChef {
+      display: none; }
     .container-meat-NeoChef .main-meat-NeoChef .bottom-meat-NeoChef {
       width: 90%;
       padding-top: 140px; }
@@ -1961,6 +2055,10 @@
         color: #c9c9c9;
         font-size: 24px;
         opacity: 0.8; }
+    .container-microwave-NeoChef .main-microwave-NeoChef .logo-microwave-NeoChef {
+      display: none; }
+    .container-microwave-NeoChef .main-microwave-NeoChef .logo-microwave-mob-NeoChef {
+      display: none; }
     .container-microwave-NeoChef .main-microwave-NeoChef .bottom-microwave-NeoChef {
       padding-top: 50%;
       display: -webkit-box;
@@ -1988,21 +2086,53 @@
     background-position: center;
     background-repeat: no-repeat;
     padding-left: 45px;
-    padding-right: 45px; }
+    padding-right: 45px;
+    padding-top: 30px; }
     .container-microwave-NeoChef .main-microwave-NeoChef {
       padding-top: 0; }
+      .container-microwave-NeoChef .main-microwave-NeoChef .logo-microwave-NeoChef {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: flex;
+        width: 100%;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+        justify-content: space-between; }
+        .container-microwave-NeoChef .main-microwave-NeoChef .logo-microwave-NeoChef .logo-watt-NeoChef {
+          padding-top: 200px;
+          padding-bottom: 30px; }
+        .container-microwave-NeoChef .main-microwave-NeoChef .logo-microwave-NeoChef .logo-cert-NeoChef {
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: flex;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+          -webkit-flex-direction: column;
+          flex-direction: column;
+          -webkit-box-pack: center;
+          -webkit-justify-content: center;
+          justify-content: center;
+          -webkit-box-align: center;
+          -webkit-align-items: center;
+          align-items: center;
+          padding-bottom: 40px;
+          padding-top: 130px; }
+          .container-microwave-NeoChef .main-microwave-NeoChef .logo-microwave-NeoChef .logo-cert-NeoChef img:first-child {
+            padding-bottom: 10px; }
+          .container-microwave-NeoChef .main-microwave-NeoChef .logo-microwave-NeoChef .logo-cert-NeoChef img:nth-child(2) {
+            width: 56px; }
+      .container-microwave-NeoChef .main-microwave-NeoChef .logo-microwave-mob-NeoChef {
+        display: none; }
       .container-microwave-NeoChef .main-microwave-NeoChef .bottom-microwave-NeoChef {
-        padding-top: 350px; } }
+        padding-top: 0; } }
 
 @media (min-width: 320px) and (max-width: 480px) {
   .container-microwave-NeoChef {
-    background-image: url("../img/mob-bg-micro.png");
+    background-image: url("../img/bg-micro-mob.png");
     background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-top: 10px; }
+    padding: 10px 5px 0; }
     .container-microwave-NeoChef .main-microwave-NeoChef {
       padding-top: 0; }
       .container-microwave-NeoChef .main-microwave-NeoChef .title-smart-NeoChef {
@@ -2014,11 +2144,23 @@
         .container-microwave-NeoChef .main-microwave-NeoChef .title-smart-NeoChef p {
           font-size: 16px;
           line-height: 21px; }
+      .container-microwave-NeoChef .main-microwave-NeoChef .logo-microwave-NeoChef {
+        display: none; }
+      .container-microwave-NeoChef .main-microwave-NeoChef .logo-microwave-mob-NeoChef {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: flex;
+        width: 62%;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+        justify-content: space-between;
+        padding-top: 200px;
+        padding-bottom: 21px; }
       .container-microwave-NeoChef .main-microwave-NeoChef .bottom-microwave-NeoChef {
-        padding-top: 264px;
-        padding-bottom: 10px; }
+        padding-bottom: 10px;
+        padding-top: 0; }
         .container-microwave-NeoChef .main-microwave-NeoChef .bottom-microwave-NeoChef p {
           font-size: 9px;
           font-weight: 300;
           line-height: 10px;
-          padding-top: 50px; } }
+          padding-top: 0; } }

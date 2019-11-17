@@ -46,6 +46,12 @@
 
       }
     }
+    .logo-microwave-NeoChef{
+      display: none;
+    }
+    .logo-microwave-mob-NeoChef{
+      display: none;
+    }
     .bottom-microwave-NeoChef{
       padding-top: 50%;
       display: flex;
@@ -71,10 +77,37 @@
     background-repeat: no-repeat;
     padding-left: 45px ;
     padding-right: 45px;
+    padding-top: 30px;
     .main-microwave-NeoChef{
       padding-top: 0;
+      .logo-microwave-NeoChef{
+        display:flex;
+        width: 100%;
+        justify-content: space-between;
+        .logo-watt-NeoChef{
+          padding-top: 200px;
+          padding-bottom: 30px;
+        }
+        .logo-cert-NeoChef{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          padding-bottom: 40px;
+          padding-top: 130px;
+          img:first-child{
+            padding-bottom: 10px;
+          }
+          img:nth-child(2){
+            width: 56px;
+          }
+        }
+      }
+      .logo-microwave-mob-NeoChef{
+        display: none;
+      }
       .bottom-microwave-NeoChef{
-        padding-top: 350px;
+        padding-top: 0;
       }
     }
 
@@ -82,13 +115,12 @@
 }
 @media (min-width: 320px) and (max-width: 480px){
   .container-microwave-NeoChef{
-    background-image: url("../img/mob-bg-micro.png");
+    background-image: url("../img/bg-micro-mob.png");
     background-size:100% 100%;
     background-position: center;
     background-repeat: no-repeat;
-    padding-left: 5px ;
-    padding-right: 5px;
-    padding-top: 10px;
+    padding: 10px 5px 0;
+
     .main-microwave-NeoChef{
       padding-top: 0;
       .title-smart-NeoChef{
@@ -103,14 +135,24 @@
           line-height: 21px;
         }
       }
+      .logo-microwave-NeoChef{
+        display: none;
+      }
+      .logo-microwave-mob-NeoChef{
+        display: flex;
+        width: 62%;
+        justify-content: space-between;
+        padding-top: 200px;
+        padding-bottom: 21px;
+      }
       .bottom-microwave-NeoChef{
-        padding-top: 264px;
         padding-bottom: 10px;
+        padding-top: 0;
         p{
           font-size: 9px;
           font-weight: 300;
           line-height: 10px;
-          padding-top: 50px;
+          padding-top: 0;
         }
       }
     }
