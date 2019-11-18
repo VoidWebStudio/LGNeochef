@@ -33,10 +33,7 @@
         padding-bottom: 25px;
       }
       p{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
+
         font-family: 'LG Smart Light',sans-serif!important;
         font-weight: 300;
         line-height: 30px;
@@ -44,6 +41,9 @@
         font-size: 24px;
         opacity: 0.8;
 
+      }
+      sup{
+        font-size: 12px;
       }
     }
     .logo-microwave-NeoChef{
@@ -65,7 +65,11 @@
         font-weight: 300;
         line-height: 16px;
         text-align: center;
+        sup{
+          font-size:8px;
+        }
       }
+
     }
   }
 }

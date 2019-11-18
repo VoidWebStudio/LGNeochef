@@ -2039,22 +2039,14 @@
         line-height: 40px;
         padding-bottom: 25px; }
       .container-microwave-NeoChef .main-microwave-NeoChef .title-smart-NeoChef p {
-        display: -webkit-box;
-        display: -webkit-flex;
-        display: flex;
-        -webkit-box-pack: center;
-        -webkit-justify-content: center;
-        justify-content: center;
-        -webkit-box-align: center;
-        -webkit-align-items: center;
-        align-items: center;
-        text-align: center;
         font-family: "LG Smart Light", sans-serif !important;
         font-weight: 300;
         line-height: 30px;
         color: #c9c9c9;
         font-size: 24px;
         opacity: 0.8; }
+      .container-microwave-NeoChef .main-microwave-NeoChef .title-smart-NeoChef sup {
+        font-size: 12px; }
     .container-microwave-NeoChef .main-microwave-NeoChef .logo-microwave-NeoChef {
       display: none; }
     .container-microwave-NeoChef .main-microwave-NeoChef .logo-microwave-mob-NeoChef {
@@ -2078,6 +2070,8 @@
         font-weight: 300;
         line-height: 16px;
         text-align: center; }
+        .container-microwave-NeoChef .main-microwave-NeoChef .bottom-microwave-NeoChef p sup {
+          font-size: 8px; }
 
 @media (min-width: 768px) and (max-width: 1024px) {
   .container-microwave-NeoChef {
