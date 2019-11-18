@@ -10,13 +10,13 @@
   margin: 0 auto;
   .contained-header-NeoChef{
     width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
     padding-left: 80px;
     padding-right: 80px;
     background-color: black;
   }
   .header-NeoChef{
+    max-width: 1200px;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
