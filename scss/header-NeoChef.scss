@@ -1,13 +1,21 @@
 @import "fonts";
+html {
+  height: 100%;
+  width: 100%;
+  font-size:0;
+}
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 .container-NeoChef{
+  display: flex;
+  flex-direction: column;
   max-width: 1440px;
   height: auto;
   margin: 0 auto;
+  overflow: hidden;
   .contained-header-NeoChef{
     width: 100%;
     padding-left: 80px;
