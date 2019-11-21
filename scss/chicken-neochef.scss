@@ -5,7 +5,7 @@
   background-size:100% 100%;
   background-position: center center;
   background-repeat: no-repeat;
-  padding: 80px 0 80px 120px;
+  padding: 80px 120px 80px 120px;
   width: 100%;
   .main-chicken-NeoChef{
     display: flex;
@@ -13,62 +13,34 @@
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    .plate-img{
-      display: flex;
-      margin-left: -13%;
-      margin-bottom: 8%;
-      width: 27%;
-      img{
-        width: 100%;
-        display: flex;
-        object-fit: contain;
-      }
-    }
-    .chiken-block{
-      display: flex;
-      max-width: 1200px;
-      padding-left:20px;
-      .chiken-plate{
-        display: flex;
-        margin-right: -18%;
-        width: 100%;
-        img{
-          width: 70%;
-          display: flex;
-        }
-
-      }
-    }
     .title-chicken-NeoChef{
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      width: 100%;
       h1{
         font-size: 40px;
         line-height: 40px;
         color: #c9c9c9;
-        font-family: "LG Smart Light",sans-serif!important;
+        font-family: "LG Smart Light",sans-serif;
         text-align: center;
-        padding-bottom: 17px;
-        font-weight: 400;
+        padding-bottom: 26px;
+        font-weight:300;
       }
       p{
-          font-size: 24px;
-       font-family: "LG Smart Light",sans-serif!important;
-          color: rgba(201, 201, 201,.8);
-          text-align: center;
-          font-weight: 300;
-          line-height: 30px;
+        font-size: 24px;
+        font-family: "LG Smart Light",sans-serif;
+        color: rgba(201, 201, 201,.8);
+        text-align: center;
+        font-weight: 300;
+        line-height: 30px;
       }
     }
-
     .calc-chicken-NeoChef{
       display: flex;
       flex-direction: column;
       padding-top: 120px;
-      width: 100%;
+      width: 80%;
       margin: 0 auto;
       p{
         color: #cccccc;
@@ -83,14 +55,12 @@
         display: flex;
         justify-content:flex-start;
         align-items: center;
-        max-height: 150px;
         .pan-NeoChef{
           display: flex;
           flex-direction: column;
           justify-content: center;
-          width: 28%;
+          width: 25%;
           padding-bottom: 20px;
-
           p{
             padding-top: 20px;
           }
@@ -99,7 +69,8 @@
           display: flex;
           justify-content: center;
           flex-direction: column;
-          width: 28%;
+          width: 25%;
+
           p{
             padding-top: 15px;
           }
@@ -107,16 +78,16 @@
       }
       .summ-NeoChef{
         display: flex;
-        justify-content: flex-end;
+        justify-content: center;
         align-items: center;
         max-height: 76px;
-        padding-bottom: 20px;
-
+        padding-bottom: 17px;
+        padding-right: 10%;
         .plus-NeoChef{
           display: flex;
           justify-content: flex-start;
           align-items: center;
-          width:40%;
+          width:32%;
           padding-left: 20px;
         }
         .eq-NeoChef{
@@ -148,9 +119,9 @@
       }
       .grill-NeoChef{
         display: flex;
-        justify-content:center;
+        justify-content:flex-start;
         align-items: center;
-        padding-right: 20%;
+        padding-right: 40%;
         p{
           padding-top: 20px;
         }
@@ -204,6 +175,7 @@
     background-size: 100% 100%;
     background-repeat: no-repeat;
     padding: 30px 50px 10px 50px;
+
     .main-chicken-NeoChef{
       .title-chicken-NeoChef{
         width: 85%;
@@ -307,9 +279,6 @@
           }
         }
       }
-      .logo-chicken-mob{
-        display: none;
-      }
       .logo-chicken-pad{
         display: block;
         padding-top: 37px;
@@ -338,6 +307,7 @@
         h1{
           font-size: 23px;
           line-height: 28px;
+          padding-bottom: 10px;
         }
         p{
           font-size: 16px;
@@ -450,16 +420,11 @@
           }
         }
       }
-      .logo-chicken-mob{
-        display: flex;
-        padding-top: 92px;
-        padding-bottom: 34px;
-      }
       .logo-chicken-lg{
         display: none;
       }
       .bottom-text-NeoChef{
-        padding-top:0;
+        padding-top: 176px;
         p{
           font-size: 9px;
         }

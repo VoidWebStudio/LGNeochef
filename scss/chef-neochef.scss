@@ -182,6 +182,10 @@
           }
           .description-chef-NeoChef{
             padding: 0 0 0 21px;
+            hr{
+              width: 64px;
+              border:1px solid #a50034;
+            }
             .description-chef-NeoChef-title{
               padding-bottom: 0;
               h1{
@@ -199,6 +203,7 @@
               p{
                 font-size: 12px;
               }
+
             }
           }
         }
