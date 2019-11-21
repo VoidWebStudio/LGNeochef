@@ -342,9 +342,16 @@
     background-size: 100% 100%;
     padding: 20px 50px;
     .main-meat-NeoChef{
-      .title-chef-NeoChef{
+      .title-meat-NeoChef{
+        padding-right: 0;
+        padding-left: 0;
       }
       .pizza-meat-NeoChef{
+        padding-right: 0;
+        justify-content: flex-end;
+        .pizza-bg{
+          display: none;
+        }
         .degree-meat-NeoChef{
           h1{
             font-size: 14px;
@@ -395,6 +402,7 @@
         margin-top: 100px;
         padding-top: 0;
         padding-bottom: 60px;
+        padding-left: 0;
 
         .degree-stake-NeoChef{
           h1{
@@ -458,6 +466,8 @@
     padding: 10px 5px;
     .main-meat-NeoChef{
       .title-meat-NeoChef{
+        padding-right: 0;
+        padding-left: 0;
         h1{
           width: 70%;
           font-size: 23px;
@@ -469,8 +479,12 @@
         }
       }
       .pizza-meat-NeoChef{
-        padding-top: 30px;
+        padding-top: 0;
         padding-bottom: 0;
+        padding-right: 0;
+        .pizza-bg{
+          display: none;
+        }
         .degree-meat-NeoChef{
           h1{
             font-size: 12px;
@@ -553,7 +567,7 @@
         display: flex;
         justify-content: flex-end;
         align-items: flex-end;
-        padding-top: 106px;
+        padding-top:106px;
       }
       .stake-meat-NeoChef{
         padding-top: 40px;

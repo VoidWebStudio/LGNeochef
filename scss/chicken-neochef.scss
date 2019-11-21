@@ -30,7 +30,7 @@
       padding-left:20px;
       .chiken-plate{
         display: flex;
-        margin-right: -18%;
+        margin-right: -24%;
         width: 100%;
         img{
           width: 70%;
@@ -117,7 +117,7 @@
           justify-content: flex-start;
           align-items: center;
           width:40%;
-          padding-left: 20px;
+          padding-left: 37px;
         }
         .eq-NeoChef{
           display: flex;
@@ -205,6 +205,12 @@
     background-repeat: no-repeat;
     padding: 30px 50px 10px 50px;
     .main-chicken-NeoChef{
+      .chiken-block{
+        .chiken-plate{
+          display: none;
+        }
+      }
+
       .title-chicken-NeoChef{
         width: 85%;
         margin: 0 auto;
@@ -222,6 +228,9 @@
         }
         .pan-microwave-NeoChef{
           padding: 0;
+          .plate-img{
+            display: none;
+          }
           .pan-NeoChef{
             display: flex;
             justify-content: center;
@@ -243,10 +252,12 @@
           }
         }
         .summ-NeoChef{
-          padding: 0 80px 20px 0;
+          padding: 0 80px 20px 80px;
+          width: 100%;
+          justify-content: flex-start;
           .plus-NeoChef{
-            width:40%;
-            padding-left: 50px;
+            width:52%;
+            padding-left: 40px;
             img{
               width: 35px;
               height: 40px;
@@ -332,6 +343,12 @@
     padding: 10px 5px 20px 5px;
 
     .main-chicken-NeoChef{
+      .chiken-block{
+        .chiken-plate{
+          display: none;
+        }
+      }
+
       .title-chicken-NeoChef{
         width: 100%;
         margin: 0 auto;
@@ -361,13 +378,16 @@
           font-size: 14px;
         }
         .pan-microwave-NeoChef{
-          padding: 0 30px 0 0;
+          padding: 0 60px 0 0;
           width: 100%;
+          .plate-img{
+            display: none;
+          }
           .pan-NeoChef{
             display: flex;
             justify-content: center;
             align-items: center;
-            width: 40%;
+            width: 45%;
             p{
               padding-top: 11px;
             }
@@ -376,7 +396,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            width: 30%;
+            width: 45%;
             p{
               line-height: 16px;
               padding-top: 7px;
