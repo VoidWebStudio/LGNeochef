@@ -4,9 +4,9 @@
   background-size:100% 100%;
   background-position: center;
   background-repeat: no-repeat;
-  height: auto;
   padding: 70px 0 10px 0;
   width: 100%;
+  height: 100%;
 
   .main-footere-NeoChef{
     max-width: 1200px;
@@ -28,6 +28,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: 100%;
     .table-footer1-NeoChef {
       display: flex;
       justify-content: space-between;
@@ -102,7 +103,8 @@
         display: flex;
         justify-content: center;
         text-align: center;
-        padding-right: 65px;
+        padding-right: 80px;
+        padding-left: 0;
         margin-top: -70px;
       }
     }

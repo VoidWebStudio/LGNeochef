@@ -13,11 +13,13 @@ html {
   display: flex;
   flex-direction: column;
   max-width: 1440px;
-  height: auto;
+  background-color: black;
+  height: 100%;
   margin: 0 auto;
   overflow: hidden;
   .contained-header-NeoChef{
     width: 100%;
+    height: 100%;
     padding-left: 80px;
     padding-right: 80px;
     background-color: black;
@@ -61,6 +63,8 @@ html {
     }
     .header-microwave-NeoChef{
       margin-bottom: -10%;
+      position:relative;
+      z-index: 1;
       .pad-microwave{
         display: none;
       }

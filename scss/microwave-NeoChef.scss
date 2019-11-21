@@ -5,8 +5,8 @@
   background-position: center;
   background-repeat: no-repeat;
   width: 100%;
-  height: auto;
-  padding: 50px 120px;
+  height: 100%;
+  padding: 20px 120px;
   .main-microwave-NeoChef{
     display: flex;
     justify-content: center;
@@ -21,6 +21,7 @@
       align-items: center;
       flex-direction: column;
       text-align: center;
+      width: 100%;
       h1{
         display: flex;
         justify-content: center;
@@ -40,6 +41,9 @@
         color: #c9c9c9;
         font-size: 24px;
         opacity: 0.8;
+        width: 100%;
+
+
 
       }
       sup{

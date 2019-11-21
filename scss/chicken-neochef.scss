@@ -84,13 +84,18 @@
         justify-content:flex-start;
         align-items: center;
         max-height: 150px;
+        width: 100%;
         .pan-NeoChef{
           display: flex;
           flex-direction: column;
           justify-content: center;
           width: 28%;
           padding-bottom: 20px;
-
+          img{
+            max-width: 84px;
+            width: 100%;
+            margin: 0 auto;
+          }
           p{
             padding-top: 20px;
           }
@@ -100,6 +105,11 @@
           justify-content: center;
           flex-direction: column;
           width: 28%;
+          img{
+            max-width: 92px;
+            width: 100%;
+            margin: 0 auto;
+          }
           p{
             padding-top: 15px;
           }
@@ -111,13 +121,14 @@
         align-items: center;
         max-height: 76px;
         padding-bottom: 20px;
+        width: 100%;
 
         .plus-NeoChef{
           display: flex;
           justify-content: flex-start;
           align-items: center;
           width:40%;
-          padding-left: 37px;
+          padding-left: 30px;
         }
         .eq-NeoChef{
           display: flex;
@@ -151,6 +162,8 @@
         justify-content:center;
         align-items: center;
         padding-right: 20%;
+        width: 100%;
+
         p{
           padding-top: 20px;
         }
@@ -164,12 +177,22 @@
           display: flex;
           flex-direction: column;
           width: 30%;
+          img{
+            max-width: 88px;
+            width: 100%;
+            margin: 0 auto;
+          }
 
         }
         .grilled-NeoChef{
           display: flex;
           flex-direction: column;
           width: 25%;
+          img{
+            max-width: 86px;
+            width: 100%;
+            margin: 0 auto;
+          }
         }
       }
     }
