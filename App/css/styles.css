@@ -1609,7 +1609,7 @@ html {
           align-items: center; }
           .container-meat-NeoChef .main-meat-NeoChef .pizza-meat-NeoChef .degree-meat-NeoChef .cups-meat-NeoChef .simple-meat-NeoChef {
             width: 205px;
-            height: 205px;
+            height: 100%;
             display: -webkit-box;
             display: -webkit-flex;
             display: flex;
@@ -1669,7 +1669,7 @@ html {
             -webkit-align-items: center;
             align-items: center;
             width: 205px;
-            height: 205px;
+            height: 100%;
             background-repeat: no-repeat;
             background-image: url("../img/cup.svg");
             background-position: center;
@@ -1785,7 +1785,7 @@ html {
             display: none; }
           .container-meat-NeoChef .main-meat-NeoChef .stake-meat-NeoChef .degree-stake-NeoChef .cups-meat-NeoChef .simple-stake-NeoChef {
             width: 205px;
-            height: 205px;
+            height: 100%;
             display: -webkit-box;
             display: -webkit-flex;
             display: flex;
@@ -1839,7 +1839,7 @@ html {
             -webkit-align-items: center;
             align-items: center;
             width: 205px;
-            height: 205px;
+            height: 100%;
             background-repeat: no-repeat;
             background-image: url("../img/meat.svg");
             background-position: center;

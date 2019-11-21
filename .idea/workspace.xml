@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="80e9bcc2-7402-418b-b4be-b4ad3b415359" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/chef-neochef.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/chef-neochef.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/App/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/meat-neochef.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/meat-neochef.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +51,7 @@
       <workItem from="1574074209076" duration="45202000" />
       <workItem from="1574258905307" duration="7560000" />
       <workItem from="1574300302300" duration="28000" />
-      <workItem from="1574306436567" duration="6855000" />
+      <workItem from="1574306436567" duration="7928000" />
     </task>
     <servers />
   </component>
