@@ -62,7 +62,8 @@
         -webkit-flex-basis: 64%;
         flex-basis: 64%; }
         .contained-chef-NeoChef .main-chef-NeoChef .bio-chef-NeoChef .info-chef-NeoChef img {
-          max-height: 200px; }
+          max-height: 200px;
+          height: 100%; }
         .contained-chef-NeoChef .main-chef-NeoChef .bio-chef-NeoChef .info-chef-NeoChef .description-chef-NeoChef {
           display: -webkit-box;
           display: -webkit-flex;
