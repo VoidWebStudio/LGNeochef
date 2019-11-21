@@ -5,7 +5,7 @@
   background-size:100% 100%;
   background-position: center center;
   background-repeat: no-repeat;
-  padding: 80px 0 80px 120px;
+  padding: 80px  80px 0;
   width: 100%;
   .main-chicken-NeoChef{
     display: flex;
@@ -26,11 +26,12 @@
     }
     .chiken-block{
       display: flex;
-      max-width: 1200px;
+      width: 100%;
       padding-left:20px;
       .chiken-plate{
         display: flex;
-        margin-right: -24%;
+        margin-right: -30%;
+        flex-basis: 95%;
         width: 100%;
         img{
           width: 70%;
@@ -56,7 +57,7 @@
       }
       p{
           font-size: 24px;
-       font-family: "LG Smart Light",sans-serif!important;
+          font-family: "LG Smart Light",sans-serif!important;
           color: rgba(201, 201, 201,.8);
           text-align: center;
           font-weight: 300;
@@ -84,6 +85,7 @@
         justify-content:flex-start;
         align-items: center;
         max-height: 150px;
+        height: 100%;
         width: 100%;
         .pan-NeoChef{
           display: flex;
@@ -120,6 +122,7 @@
         justify-content: flex-end;
         align-items: center;
         max-height: 76px;
+        height: 100%;
         padding-bottom: 20px;
         width: 100%;
 
@@ -142,6 +145,7 @@
           line-height: 1.167;
           text-align: center;
           padding-right: 10%;
+          width: 100%;
           span{
             font-size:56px;
             padding-left: 10px;
@@ -161,7 +165,7 @@
         display: flex;
         justify-content:center;
         align-items: center;
-        padding-right: 20%;
+        padding-right: 18%;
         width: 100%;
 
         p{
